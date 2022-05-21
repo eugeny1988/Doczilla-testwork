@@ -67,11 +67,19 @@
       <option name="project" value="LOCAL" />
       <updated>1653165992247</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add all files to ArrayList">
+      <created>1653167730066</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1653167730066</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Add all files to ArrayList" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add all files to ArrayList" />
   </component>
 </project>
