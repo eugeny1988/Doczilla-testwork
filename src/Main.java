@@ -1,3 +1,4 @@
+import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -21,7 +22,10 @@ public class Main {
                 String[] charArray = s.split(" ");
                 for (int i = 0; i < charArray.length; i++) {
                     if (charArray[i].equals("require")){
-                        System.out.println(charArray[i+1]);
+                    StringBuilder fileString = new StringBuilder(s).delete(0,8).deleteCharAt(0);
+                    fileString.deleteCharAt(fileString.length()-1);
+                        File f = new File(fileString.append(".txt").toString());
+                        System.out.println(f.toString());
                     }
                 }
             }
