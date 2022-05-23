@@ -4,6 +4,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.TreeSet;
 
 public class Main {
     public static void main(String[] args) throws IOException {
@@ -14,6 +15,7 @@ public class Main {
         files.add(file11);
         files.add(file21);
         files.add(file22);
+        TreeSet filesTree = new TreeSet<>();
         for (Path loopFile :
                 files) {
             List<String> loopFileContent = Files.readAllLines(loopFile);
@@ -25,10 +27,13 @@ public class Main {
                     StringBuilder fileString = new StringBuilder(s).delete(0,8).deleteCharAt(0);
                     fileString.deleteCharAt(fileString.length()-1);
                         File f = new File(fileString.append(".txt").toString());
-                        System.out.println(f.toString());
+                        if (f.exists()){
+                          filesTree.add(f);
+                        }
                     }
                 }
             }
+            System.out.println(filesTree);
         }
     }
 }

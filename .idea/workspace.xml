@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="01d42f42-b4f9-44f9-a859-7908954da815" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Folder 1/File 1-1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Folder 1/File 1-1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Folder 2/File 2-2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Folder 2/File 2-2.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,12 +74,31 @@
       <option name="project" value="LOCAL" />
       <updated>1653167730066</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Read all files before loop">
+      <created>1653254975076</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1653254975076</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Add all files to ArrayList" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add all files to ArrayList" />
+    <MESSAGE value="Read all files before loop" />
+    <option name="LAST_COMMIT_MESSAGE" value="Read all files before loop" />
   </component>
 </project>
